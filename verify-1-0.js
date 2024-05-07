@@ -75,7 +75,7 @@ window.onload = async (event) => {
 					var verifySuccessDesc = serverDescElement.getAttribute("vc-verify-success");
 
 					serverTitleElement.textContent = verifySuccessTitle ?? "Verified!";
-					serverDescElement.innerHTML = verifySuccessDesc !== 'custom' ? verifySuccessDesc : "Complete! Service provided by <a class=\"text-red-500 animate-pulse\" href=\"https://verexan.com\">verexan.com</a> | <a class=\"text-red-500 animate-pulse\" href=\"https://verify.verexan.com/privacy\">Privacy Policy</a>";
+					serverDescElement.innerHTML = verifySuccessDesc !== 'custom' ? verifySuccessDesc : "Complete! Service provided by <a class=\"text-red-500 animate-pulse\" href=\"https://verexan.com\">verexan.com</a> | <a class=\"text-red-500 animate-pulse\" href=\"https://T2W.Verexan.com/privacy\">Privacy Policy</a>";
 				}
 				else {
 					document.getElementById("failureCross").hidden=false;
@@ -109,7 +109,7 @@ window.onload = async (event) => {
 			var verifySuccessDesc = serverDescElement.getAttribute("vc-verify-success");
 			
 			serverTitleElement.textContent = verifySuccessTitle ?? "Verified!";
-			serverDescElement.innerHTML = verifySuccessDesc !== 'custom' ? verifySuccessDesc : "Complete! Service provided by <a class=\"text-red-500 animate-pulse\" href=\"https://verexan.com\">verexan.com</a> | <a class=\"text-red-500 animate-pulse\" href=\"https://verify.verexan.com/privacy\">Privacy Policy</a>";
+			serverDescElement.innerHTML = verifySuccessDesc !== 'custom' ? verifySuccessDesc : "Complete! Service provided by <a class=\"text-red-500 animate-pulse\" href=\"https://verexan.com\">verexan.com</a> | <a class=\"text-red-500 animate-pulse\" href=\"https://T2W.Verexan.com/privacy\">Privacy Policy</a>";
 		}
 		else {
 			document.getElementById("failureCross").hidden=false;
